@@ -12,6 +12,7 @@ html{
 button{
     background-color: #02bcc9cc;
     border: 0;
+    font-size: 1em;
 }
 
 a{
@@ -55,7 +56,7 @@ a{
 } */
 
 .stdiv{
-    padding-top: 4.5em;
+    padding-top: 5em;
     padding-left: 5%;
     padding-right: 5%;
     font-family: 'Times New Roman', Times, serif;
