@@ -1,6 +1,7 @@
 *{
     margin: 0;
     overflow-wrap: anywhere;
+    font-size: 16px;
 }
 
 html{
@@ -9,24 +10,28 @@ html{
 }
 
 button{
-    background-color: #01858f;
+    background-color: #02bcc9cc;
     border: 0;
 }
 
 a{
     text-decoration: 0;
-    color: #ffffff;
+    color: #ffffffcc;
 }
 
 .bar{
     color: black;
-    text-align: center;
+    text-align: left;
     font-family: monospace;
-    font-size: 48px;
-    background-color: #02bcc9cc;
+    font-size: 2em;
+    background-color: #02bcc9;
     top: 0;
-    height: 48px;
-    padding: 10px;
+    /* height: 2.5%; */
+    /* padding: 1.5%; */
+    padding: 0.5em;
+    /* padding-top: 0.5em; */
+    /* padding-bottom: 0.5em; */
+    /* padding-left: 2.5em; */
     position: fixed;
     justify-content: space-between;
     width: 100%;
@@ -45,12 +50,12 @@ a{
     margin-top: 78px;
 } */
 
-.p{
+/* .p{
     margin: 30px;
-}
+} */
 
 .stdiv{
-    padding-top: 78px;
+    padding-top: 4.5em;
     padding-left: 5%;
     padding-right: 5%;
     font-family: 'Times New Roman', Times, serif;
