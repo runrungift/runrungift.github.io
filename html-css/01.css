@@ -1,11 +1,21 @@
+*{
+    margin: 0;
+    overflow-wrap: anywhere;
+}
+
 html{
     background-color: #ffffff;
     overflow: scroll;
 }
 
-*{
-    margin: 0;
-    overflow-wrap: anywhere;
+button{
+    background-color: #01858f;
+    border: 0;
+}
+
+a{
+    text-decoration: 0;
+    color: #ffffff;
 }
 
 .bar{
@@ -22,12 +32,28 @@ html{
     width: 100%;
 }
 
-.st{
-    margin-top: 78px; /* 10 48 20 */
+.return{
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 5%;
+    right: 5%;
+    text-align: end;
+    padding-right: 2.5%;
 }
+
+/* .st{
+    margin-top: 78px;
+} */
 
 .p{
     margin: 30px;
+}
+
+.stdiv{
+    padding-top: 78px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .div{
@@ -36,3 +62,4 @@ html{
     padding-right: 5%;
     font-family: 'Times New Roman', Times, serif;
 }
+
