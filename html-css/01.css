@@ -10,19 +10,27 @@ html{
 }
 
 button{
-    background-color: #02bcc9cc;
+    text-align: center;
+    justify-content: center;
+    background-color: #02bcc9;
     border: 0;
+    border-radius: 0.5em;
     font-size: 1em;
+    /* padding: 0.5em; */
+    width: 5em;
+    height: 1.5em;
 }
 
 a{
     text-decoration: 0;
-    color: #ffffffcc;
+    color: #ffffff;
 }
 
 .bar{
     color: black;
+    /* text-align: left; */
     text-align: left;
+    justify-content: center;
     font-family: monospace;
     font-size: 2em;
     background-color: #02bcc9;
@@ -42,9 +50,10 @@ a{
     position: -webkit-sticky;
     position: sticky;
     bottom: 5%;
-    right: 5%;
+    /* right: 5%; */
     text-align: end;
-    padding-right: 2.5%;
+    /* padding-right: 25%; */
+    padding-right: 20%;
 }
 
 /* .st{
@@ -55,17 +64,19 @@ a{
     margin: 30px;
 } */
 
-.stdiv{
+.div{
     padding-top: 5em;
-    padding-left: 5%;
-    padding-right: 5%;
+    /* padding-left: 15%; */
+    /* padding-right: 30%; */
+    padding-left: 20%;
+    padding-right: 20%;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.div{
+/* .div{ */
     /* margin: 10%; */
-    padding-left: 5%;
-    padding-right: 5%;
-    font-family: 'Times New Roman', Times, serif;
-}
+    /* padding-left: 5%; */
+    /* padding-right: 5%; */
+    /* font-family: 'Times New Roman', Times, serif; */
+/* } */
 
