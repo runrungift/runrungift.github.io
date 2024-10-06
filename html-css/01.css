@@ -6,6 +6,7 @@
 
 html{
     background-color: #ffffff;
+    color: #000000;
     overflow: scroll;
 }
 
@@ -19,31 +20,67 @@ button{
     /* padding: 0.5em; */
     width: 5em;
     height: 1.5em;
+    a{
+        color: #ffffff;
+    }
+}
+
+button:hover{
+    /* background-color: #22dce9; */
+    opacity: 0.75;
 }
 
 a{
     text-decoration: 0;
-    color: #ffffff;
+    color: #000000;
 }
 
-.bar{
-    color: black;
-    /* text-align: left; */
-    text-align: left;
-    justify-content: center;
-    font-family: monospace;
-    font-size: 2em;
+header{
     background-color: #02bcc9;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
     top: 0;
-    /* height: 2.5%; */
-    /* padding: 1.5%; */
-    padding: 0.5em;
-    /* padding-top: 0.5em; */
-    /* padding-bottom: 0.5em; */
-    /* padding-left: 2.5em; */
-    position: fixed;
-    justify-content: space-between;
     width: 100%;
+    position: fixed;
+    h1{
+        text-align: left;
+        font-family: monospace;
+        font-size: 2em;
+        justify-content: space-between;
+        pointer-events: none;
+        vertical-align: middle;
+    }
+    nav{
+        top: 1em;
+        right: 2.25em;
+        position: absolute;
+        ul{
+            list-style-type: none;
+        }
+        li{
+            padding-left: 0.75em;
+            padding-right: 0.75em;
+            display: inline-block;
+            vertical-align: middle;
+            text-align: right;
+            
+        }
+        .now{
+            /* font-weight: bold; */
+            border-bottom: medium dashed #000000;
+        }
+    }
+}
+
+li:hover{
+    font-weight: bold;
+    color: #555555;
+
+}
+
+.now:hover{
+    border-color: #555555;
 }
 
 .return{
@@ -53,30 +90,12 @@ a{
     /* right: 5%; */
     text-align: end;
     /* padding-right: 25%; */
-    padding-right: 20%;
+    padding-right: 10%;
 }
 
-/* .st{
-    margin-top: 78px;
-} */
-
-/* .p{
-    margin: 30px;
-} */
-
-.div{
-    padding-top: 5em;
-    /* padding-left: 15%; */
-    /* padding-right: 30%; */
+.contents{
+    padding-top: 4.5em;
     padding-left: 20%;
     padding-right: 20%;
     font-family: 'Times New Roman', Times, serif;
 }
-
-/* .div{ */
-    /* margin: 10%; */
-    /* padding-left: 5%; */
-    /* padding-right: 5%; */
-    /* font-family: 'Times New Roman', Times, serif; */
-/* } */
-
